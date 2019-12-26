@@ -1,0 +1,32 @@
+# Basic Calculator
+
+print("1. Addition");
+print("2. Subtraction");
+print("3. Multiplication");
+print("4. Division");
+print("5. Exit");
+Option = int(input("Enter your Option: "));
+if (Option>=1 and Option<=4):
+    print("Enter two numbers: ");
+    num1 = int(input());
+    num2 = int(input());
+# Operation to add two numbers
+    if Option == 1:
+    	result = num1 + num2;
+    	print("Result = ", result);
+# Operation to substract two numbers
+    elif Option == 2:
+    	result = num1 - num2;
+    	print("Result = ", result);
+# Operation to multiply two numbers
+    elif Option == 3:
+    	result = num1 * num2;
+    	print("Result = ", result);
+# Operation to divide two numbers
+    elif Option == 4:
+        result = num1 / num2;
+        print("Result = ",result)
+elif Option == 5:
+    exit();
+else:
+    print("Incorrect input??");
