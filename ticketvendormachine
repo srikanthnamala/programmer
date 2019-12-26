@@ -3,7 +3,9 @@ x = int(input("How many tickets you want?"))
 i = 1
 while i<=x:
     if i>av:
-        print("Tickets Sold")
+        print("Not available")
+        print("Sold Out")
+        print("Available Soon")
         break
     print('Ticket',i)
     i = i+1
