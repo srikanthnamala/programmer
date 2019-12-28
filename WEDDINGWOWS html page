@@ -1,0 +1,87 @@
+
+<!-- saved from url=(0045)file:///D:/UI%20technologies/myfirstpage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title> My RegFrom</title>
+</head><body><h1 style="
+    font-style: italic;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
+">WEDDING WOWS</h1>
+
+<h1 style="
+    color: white;
+    /* color: white; */
+    font-size: 50px;
+">Registration Form</h1>
+<style>
+	body {
+        background: rgb(93, 118, 119);
+	}
+    </style>
+    <img src="p1.png" alt="Image" height="800" width="800" align="right">
+  
+
+	 
+<p>
+    <b title="please enter your Firstname" style="
+    font-size: 30;
+    color: white;
+">Firstname:</b><input>
+</p>
+<p>
+	<b title="please enter your Lastame" style="
+    /* color: white; */
+    font-size: xx-large;
+    color: white;
+">Lastname:</b><input>
+</p>
+<p>
+	<b title="please enter your UserId" style="
+    /* color: white; */
+    font-size: xx-large;
+    color: white;
+">UserId:</b><input>
+</p>
+<p>
+	<b style="
+    font-size: xx-large;
+    color: white;
+">Password:<input type="password">
+</b></p><b style="
+    font-size: x-large;
+    color: white;
+">
+<p>
+	</p><div style="
+    font-size: xx-large;
+">Gender</div>
+	<input type="radio" name="gender" value="Male">Male<br>
+	<input type="radio" name="gender" value="Female">Female<br>
+	<input type="radio" name="gender" value="Others">Others<br>
+
+<p></p>
+<p>
+	</p><div style="
+    font-size: xx-large;
+">Interested in</div>
+	<input type="radio" name="gender" value="Male">Male<br>
+	<input type="radio" name="gender" value="Female">Female<br>
+	<input type="radio" name="gender" value="Both">Others<br>
+<span style="
+    font-size: xx-large;
+">Address:<textarea name="Text1" cols="40" rows="5"></textarea>
+<p>
+<span><button type="submit" form="form1" value="Submit">Submit</button></span>
+
+<span><button type="reset" form="form2" value="Cancel">Cancel</button></span>
+</p>
+
+
+
+<p><a href="https://www.weddingwows.com/" style="
+    color: red;
+    font-size: xx-large;
+">Visit weddingwows.com!</a></p>
+</b></body></html>
