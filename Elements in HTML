@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Home </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <section>
+            <h2> Latest posts</h2>
+            <h3> Here you can see all the latest posts </h3>
+            <article>
+                <h4> This is the post title</h4>
+                // Here br refers to break. It is used to shift text to next line which is after it.//
+                <p> This is some content <br>inside this post.</p>
+                <h5> Author: Srikanth Namala</h5>
+            </article>
+        </section>
+    </body>
+
+</html>
