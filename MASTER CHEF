@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MASTER CHEF</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+    </style>
+    <style>
+
+        h2{
+            background-color:darkslategrey;
+            text-align: center;
+            color: white;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+        }
+        #names1{
+            font-size:xx-large;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+            text-shadow: 2cm;
+        }
+        #names2{
+            font-size:xx-large;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+            text-shadow: 2cm;
+        }
+        #names3{
+            font-size:xx-large;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+            text-shadow: 2cm;
+        }
+        #names4{
+            font-size:xx-large;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+            text-shadow: 2cm;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Main Navigation -->
+    <div align="center">
+        <a href="#home">Home</a> |
+        <a href="#foods">FOODS</a> |
+        <a href="#cookery-shows">COOKERY SHOWS</a> |
+        <a href="#master-chefs">MSATER CHEFS</a> |
+        <a href="#management-team"> MANAGEMENT TEAM</a> |
+    </div>
+
+    <!-- Home Section -->
+    <div id="home">
+        <h1 align = "center">THE MASTER CHEFS</h1>
+        <hr>
+        <h2 id="foods">FOODS</h2>
+        <img src="img/main_1.jpg" width="500px" height="250px">
+        <img src="img/desert_3.jpg" width="500px" height="250px" id="desert">
+        <img src="img/breads_1.jpg" width="490px" height="250px">
+        
+        <table width="100%">
+            <tr id="names1">
+                <th>STARTERS</th>
+                <th>DESERTS</th>
+                <th>FINISHERS</th>
+            </tr>
+            <br>
+
+        </table>
+        <br>
+    </div>
+    <!-- OUR COOKERY SHOWS -->
+    <div id="cookery-shows">
+        <h2>COOKERY SHOWS</h2>
+        <h3 align="center">Our Master Chefs are one of the best and renouoned chefs across the globe. Here we have great chefs who won amazing prizes in cookery shows.
+            You can have a glimpse look of what our master chefs can make. These videos are of from <mark>AMERICA'S GOT TALENT</mark> where we stood among the crowd across the globe.
+        </h3>
+        <iframe width="500" height="250" src="https://www.youtube.com/embed/uWIRxHDE1pQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="500" height="250" src="https://www.youtube.com/embed/OXi8qIgZiic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="490" height="250" src="https://www.youtube.com/embed/Lw7EixBGu60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <table width="100%">
+            <tr id="names2">
+                <th>FRIED CHICKEN</th>
+                <th>BLACK FOREST</th>
+                <th>ITALIAN FRIED</th>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <!-- OUR MASTER CHEFS -->
+    <div id="master-chefs">
+        <h2>MASTER CHEFS</h2>
+        <h3 align="center">Here are our great master chefs. They are from across the globe. We are specialized in <mark>ITALIAN, CHINESE, JAPANESE
+            CONTINENTAL, SOUTH-INDIAN, NORTH-INDIAN</mark>. You can have a great varieties of delicious foods here.
+        </h3>
+        <img src="https://www.wonderslist.com/wp-content/uploads/2015/01/Nobu-Matsuhisa.jpg" width="500" height="250">
+        <img src="https://www.nestleprofessional.com/sites/g/files/gfb511/f/styles/cover/public/media/youthday1.jpg?itok=Hch_-HLb" width="500" height="250">
+        <img src="https://trulyexperiences.com/blog/wp-content/uploads/2018/04/image15.png" width="490" height="250">
+        <table width="100%">
+            <tr id="names3">
+                <th>MICHAEL GRANT</th>
+                <th>LISA ANN</th>
+                <th>JOVINOSKI WALT</th>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <!-- OUR MANAGEMENT TEAM -->
+    <div id="management-team">
+        <h2 align="center">MANAGEMENT TEAM</h2>
+        <h3 align="center"> We are having a management team who are well versed. They have completed their degrees in most reputed universities across the globe.
+            Our front-office team are very dignified and make every possible way to make you satisfied.
+            </h3>
+
+        <img src="https://www.rightadvisors.com/images/content/management.jpg" width="500" height="250">
+        <img src="https://cdn.almentor.net/image/wTcLEHyTRestaurantManagementEssentials-large.jpg" width="500" height="250">
+        <img src="https://neihm.com/images/front_office.jpg " width="490" height="250">
+        <table width="100%">
+            <tr id="names4">
+                <th>FINANCIAL</th>
+                <th>PRODUCTION</th>
+                <th>FRONT-OFFICE</th>
+            </tr>
+        </table>
+        <br>
+    </div>
+
+    <div id="main-footer">
+        <h2>Copyright &copy; 2018, THE MASTER CHEFS</h2>
+        <P align="center">All Rights Reserved</P>
+        <p align="center">Developed & Maintained by Srikanth Namala</p>
+        <br>
+    </div>
+        <!-- Main Navigation -->
+        <div align="center">
+            <a href="#home">Home</a> |
+            <a href="#foods">FOODS</a> |
+            <a href="#cookery-shows">COOKERY SHOWS</a> |
+            <a href="#master-chefs">MSATER CHEFS</a> |
+            <a href="#management-team"> MANAGEMENT TEAM</a> |
+        </div>
+
+</body>
+</html>
