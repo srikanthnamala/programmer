@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UiBrains Technologies</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+        header , footer{
+            background: white url("../img/J4o.gif") scroll no-repeat bottom;
+            background-size: cover;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+        footer{
+            width: 100%;
+            position:absolute;
+        }
+        /* Main Navigation */
+        nav{
+            background-color: #182020;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            display: inline-block;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            background-color: teal;
+            border-radius: 30px;
+        }
+        nav ul li a.active{
+            background-color: seagreen;
+            border-radius: 30px;
+        }
+        /* -- Sidebar Section -- */
+        aside{
+            float: left;
+            width: 200px;
+            text-align: center;
+            height: 350px;
+            overflow-y: scroll;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 15px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: teal;
+            color: white;
+            border-radius: 20px;
+            font-size: 25px;
+        }
+        /* -- Main Content Section -- */
+        section{
+            margin-left: 200px;
+            border-left: 2px solid grey;
+            padding: 10px;
+        }
+        details{
+            background-color: #636a46;
+            margin: 5px;
+            padding: 10px;
+            color: white;
+            border-radius: 15px;
+        }
+        summary{
+            outline: none;
+        }
+        article{
+            background-color: darkslategray;
+            border-radius: 15px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- MainHeader -->
+    <header>
+        <h1>UIBRAINS Technologies</h1>
+        <p>The Smart Way of Learning</p>
+    </header>
+    <!-- Main Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">Careers</a>
+            </li>
+            <li>
+                <a href="#">Courses</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Sidebar Section -->
+    <aside>
+        <ul>
+            <li>
+                <a href="#">HTML</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">JavaScript</a>
+            </li>
+            <li>
+                <a href="#">Angular JS</a>
+            </li>
+            <li>
+                <a href="#">JQuery</a>
+            </li>
+            <li>
+                <a href="#">AJAX</a>
+            </li>
+            <li>
+                <a href="#">Bootstrap</a>
+            </li>
+            <li>
+                <a href="#">TypeScript</a>
+            </li>
+        </ul>
+    </aside>
+    <!-- Main Content -->
+    <section>
+        <!-- HTML -->
+        <details>
+            <summary>HTML</summary>
+            <article>
+                <h3>HTML</h3>
+                <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. 
+                    It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+                </p>
+                <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. 
+                    HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+            </article>
+        </details>
+        <!-- CSS -->
+        <details>
+            <summary>CSS</summary>
+            <article>
+                <h3>CSS</h3>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+                    written in a markup language such as HTML.
+                    CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</p>
+                    <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.
+                        This separation can improve content accessibility, provide more flexibility and control in the specification of 
+                        presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate 
+                        css file which reduces complexity and repetition in the structural content as well as enabling the css file to be cached 
+                        to improve the page load speed between the pages that share the file and its formatting</p>
+            </article>
+        </details>
+        <!-- JavaScript -->
+        <details>
+            <summary>JAVASCRIPT</summary>
+            <article>
+                <h3>JAVASCRIPT</h3>
+                <p>JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. 
+                    JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, 
+                    prototype-based object-orientation, and first-class functions.</p>
+                    <p>Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.
+                        JavaScript enables interactive web pages and is an essential part of web applications. 
+                        The vast majority of websites use it for client-side page behavior and all major web browsers have a dedicated 
+                        JavaScript engine to execute it.
+
+                    </p>
+            </article>
+        </details>
+        <!-- Angular JS -->
+        <details>
+            <summary>AngularJS</summary>
+                <article>
+                    <h3>ANGULAR JS</h3>
+                    <p>The AngularJS framework works by first reading the Hypertext Markup Language (HTML) page, 
+                        which has an additional custom HTML attributes embedded into it. Angular interprets those
+                         attributes as directives to bind input or output parts of the page to a model that is represented by 
+                         standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, 
+                         or retrieved from static or dynamic JSON resources</p>
+                         <p>AngularJS is built on the belief that declarative programming should be used to create user interfaces and 
+                             connect software components, while imperative programming is better suited to defining an application's business logic.
+                             The framework adapts and extends traditional HTML to present dynamic content through two-way data-binding that allows for 
+                             the automatic synchronization of models and views. As a result, AngularJS de-emphasizes explicit Document Object Model (DOM) 
+                             manipulation with the goal of improving testability and performance.
+                            </p>
+                </article>
+        </details>
+        <!-- JQuery -->
+        <details>
+            <summary>JQUERY</summary>
+            <article>
+                <h3>JQUERY</h3>
+                <p>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, 
+                    CSS animation, and Ajax.[3] It is free, open-source software using the permissive MIT License. 
+                    As of May 2019, jQuery is used by 73% of the 10 million most popular websites.
+                    Web analysis</p>
+                    <p>jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, 
+                        and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. 
+                        This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets. 
+                        The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applications</p>
+            </article>
+        </details>
+        <!-- AJAX -->
+        <details>
+            <summary>AJAX</summary>
+            <article>
+                <h3>AJAX</h3>
+                <p>Ajax is a set of web development techniques using many web technologies on the client side to create asynchronous w
+                    eb applications. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) 
+                    without interfering with the display and behaviour of the existing page. By decoupling the data interchange layer from the
+                     presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without 
+                     the need to reload the entire page.In practice, modern implementations commonly utilize JSON instead of XML.</p>
+                     <p>Ajax is not a single technology, but rather a group of technologies. HTML and CSS can be used in combination 
+                         to mark up and style information. The webpage can then be modified by JavaScript to dynamically display—and 
+                         allow the user to interact with—the new information. The built-in XMLHttpRequest object, 
+                         or since 2017 the new "fetch()" function within JavaScript, is commonly used to execute Ajax on webpages, 
+                         allowing websites to load content onto the screen without refreshing the page. Ajax is not a new technology, 
+                         or different language, just existing technologies used in new ways</p>
+            </article>
+        </details>
+        <!-- BOOTSTRAP -->
+        <details>
+            <summary>BOOTSTRAP</summary>
+            <article>
+                <h3>BOOTSTRAP</h3>
+                <p>Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework
+                     to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, 
+                     which led to inconsistencies and a high maintenance burden</p>
+                     <p>According to Twitter developer Mark Otto:
+                        A super small group of developers and I got together to design and build a new internal tool and saw 
+                        an opportunity to do something more. Through that process, we saw ourselves build something much more
+                         substantial than another internal tool. Months later, we ended up with an early version of Bootstrap as a way to 
+                         document and share common design patterns and assets within the company.
+                        </p>
+            </article>
+        </details>
+        <!-- TYPESCRIPT-->
+        <details>
+            <summary>TYPESCRIPT</summary>
+            <article>
+                <h3>TYPESCRIPT</h3>
+                <p>ypeScript is a programming language developed and maintained by Microsoft. 
+                    It is a strict syntactical superset of JavaScript and adds optional static typing to the language. 
+                    TypeScript is designed for development of large applications and transcompiles to JavaScript. 
+                    As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.</p>
+                    <p>TypeScript may be used to develop JavaScript applications for both client-side and server-side execution 
+                     There are multiple options available for transcompilation. Either the default TypeScript Checker can be used,
+                     or the Babel compiler can be invoked to convert TypeScript to JavaScript.
+                    </p>
+            </article>
+        </details>
+    </section>
+    <!-- Main Footer -->
+    <footer>
+        <h2>Copyright &copy;, 2018, UIBRAINS Technologies</h2>
+        <p>All Rights Reserved.</p>
+        <small>Developed and Maintaibed by Srikanth.Namala</small>
+    </footer>
+</body>
+</html>
